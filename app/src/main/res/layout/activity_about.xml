@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".Activities.Details"
+        android:background="#E6E2E2"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/abouttoolbar"
+            app:titleTextColor="@color/black"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"/>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:background="@color/black"
+                android:layout_height="wrap_content">
+
+
+            <ImageView
+                    android:src="@drawable/logo"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="100dp"/>
+
+            <TextView
+                    android:textColor="#4863F1"
+                    android:textSize="55dp"
+                    android:text="CineVerse"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+            android:textColor="#1a1a1a"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:text="Developed By :- Keyuri Dhorajiya"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textColor="#4863F1"
+            android:textSize="15dp"
+            android:id="@+id/github"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:text="https://github.com/Keyuri1711"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textColor="#1a1a1a"
+            android:textSize="19sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="gravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CineVerse is an application that has movie and TV database. This is a database of information related to films, television programs and video games -- including cast, production crew and personal biographies, plot summaries, and ratings."/>
+
+
+    <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/credits"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"/>
+
+</LinearLayout>
